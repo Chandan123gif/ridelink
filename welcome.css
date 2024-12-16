@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2.0;
+}
+
+header {
+    background: #333;
+    color: #c7c2c2;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.hero {
+    background: url('hero-bg3.jpg') no-repeat center center/cover;
+    color: rgb(126, 120, 120);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.cta-button {
+    background: #5cb85c;
+    color: white;
+    padding: 20px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background: red;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 130px;
+}
+.hero p{
+    text-align: center;
+    font-size: 30px;  
+    margin-top: 10px; 
+
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
