@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - RideLink</title>
+    <link rel="stylesheet" href="Admin.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Login</h1>
+        <div id="login-error-msg" class="error-msg" style="display: none;">Invalid username or password</div>
+        <form id="admin-login-form">
+            <input type="text" name="username" class="login-form-field" placeholder="Username" required>
+            <input type="password" name="password" class="login-form-field" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <p>Back to <a href="dashboard.html">dashboard</a></p>
+    </div>
+    <script defer src="Admin.js"></script>
+</body>
+</html>

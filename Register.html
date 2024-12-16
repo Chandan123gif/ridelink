@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Register.css">
+    <title>RideLink - Customer Registration</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">RideLink</div>
+            <ul class="nav-links">
+                <li><a href="welcome.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+        <section class="registration-form">
+            <h1>Create Your Account</h1>
+            <form id="register-form">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" class="registration-form-field" placeholder="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" class="registration-form-field" placeholder="email" required>
+
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="">Select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone Number" required>
+        
+                <label for="country">Country:</label>
+                <input type="text" id="country" placeholder="country" required>
+        
+                <label for="city">City:</label>
+                <input type="text" id="city" placeholder="city" required>
+        
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="password" required>
+                <span id="password-toggle" class="password-toggle"></span>
+
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" placeholder="confirm-password" required>
+
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RideLink. All rights reserved.</p>
+    </footer>
+
+    <script src="Register.js"></script>
+</body>
+</html>

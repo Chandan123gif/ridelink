@@ -1,0 +1,44 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.801);
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 500px;
+    padding: 20px 20px;
+    margin-top: 100px;
+}
+.cta-button{
+    background: rgb(2, 247, 2);
+    padding: 20px 20px;
+    color: rgb(14, 13, 13);
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    display: block;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.cta-button:hover {
+    background: red;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+.left-corner-image{
+    position: absolute;
+    color: black;
+    top: 0%;
+    left: 0%;
+}
